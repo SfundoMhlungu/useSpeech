@@ -1,0 +1,31 @@
+{
+    "name": "use-speech18",
+    "version": "1.0.6",
+    "description": "Speech Syntesis for react",
+   
+    "main": "./lib/esm/index.js",
+    "files": [
+        "lib/esm"
+    ],
+    "types": "lib/esm",
+    "scripts": {
+        "build": "tsc -p .",
+        "pub": "npm run build && npm publish"
+    },
+    "keywords": [
+        "Text to speech",
+        "Speech",
+        "Speech Synthesis",
+        "React 18"
+        
+    ],
+    "author": "Sfundo(sk) Mhlungu <mhlungusk@gmail.com>",
+    "license": "MIT",
+    "homepage": "",
+    "dependencies": {
+        "react": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.24"
+    }
+}
